@@ -5,7 +5,7 @@
 <!-- =================================================================================== -->
 <robot name="ur5" xmlns:xacro="http://www.ros.org/wiki/xacro">
   <gazebo>
-    <plugin filename="libgazebo_ros_control.so" name="ros_control">
+    <plugin name="gz_ros2_control::GazeboSimROS2ControlPlugin" filename="libgz_ros2_control-system.so">
       <!--robotNamespace>/</robotNamespace-->
       <!--robotSimType>gazebo_ros_control/DefaultRobotHWSim</robotSimType-->
     </plugin>

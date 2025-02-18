@@ -4,7 +4,7 @@
   <xacro:include filename="$(find robot_description)/urdf/robotiq/robotiq_85_gripper.urdf.xacro" />
   
   <gazebo>
-    <plugin name="gazebo_ros_control" filename="libgazebo_ros_control.so"> 
+    <plugin name="gz_ros2_control" filename="libgz_ros2_control.so"> 
       <robotNamespace>/</robotNamespace>
     </plugin> 
   </gazebo>
