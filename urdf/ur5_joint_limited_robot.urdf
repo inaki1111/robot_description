@@ -7,7 +7,9 @@
   <gazebo>
     <plugin name="gz_ros2_control::GazeboSimROS2ControlPlugin" filename="libgz_ros2_control-system.so">
       <robotNamespace>/</robotNamespace>
-      <robotSimType>gazebo_ros_control/DefaultRobotHWSim</robotSimType>
+      <robotSimType>gz_ros2_control/DefaultRobotHWSim</robotSimType>
+      <ros2_control_parameters>ros2_controllers.yaml</ros2_control_parameters>
+
     </plugin>
     <!--
     <plugin name="gazebo_ros_power_monitor_controller" filename="libgazebo_ros_power_monitor.so">
